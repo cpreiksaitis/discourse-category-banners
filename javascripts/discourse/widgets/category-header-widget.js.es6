@@ -69,7 +69,7 @@ export default createWidget("category-header-widget", {
           `div.category-title-header.category-banner-${category.slug}`,
           {
             attributes: {
-              style: `background: url(example.jpg); color: #${category.text_color};`,
+              style: `background: url(example.jpg); color: blue;`,
             },
           },
           h("div.category-title-contents", buildCategory(category, this))
