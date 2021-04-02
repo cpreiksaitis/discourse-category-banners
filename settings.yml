@@ -1,6 +1,6 @@
 show_description:
   default: true
-  description: 'Show description from "About Ths Category" post'
+  description: 'Show description from "About This Category" post'
 
 show_mobile:
   default: true
