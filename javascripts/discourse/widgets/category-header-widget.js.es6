@@ -19,7 +19,7 @@ function buildCategory(category, widget) {
     }
   }
 
-  content.push(h("the best", category.name));
+  content.push(h("h1.category-title", category.name));
 
   if (settings.show_description) {
     content.push(
@@ -69,7 +69,7 @@ export default createWidget("category-header-widget", {
           `div.category-title-header.category-banner-${category.slug}`,
           {
             attributes: {
-              style: `background: url(example.jpg); color: blue;`,
+              style: `background: url(https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png); color: blue;`,
             },
           },
           h("div.category-title-contents", buildCategory(category, this))
